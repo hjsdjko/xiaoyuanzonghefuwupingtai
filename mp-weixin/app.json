@@ -1,0 +1,99 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/recharge/recharge",
+    "pages/address/detail",
+    "pages/address/list",
+    "pages/forum/forum-index",
+    "pages/forum/forum-detail",
+    "pages/forum/forum-my",
+    "pages/forum/forum-add-or-update",
+    "pages/gongao/list",
+    "pages/gongao/add-or-update",
+    "pages/gongao/detail",
+    "pages/gongaoCollection/list",
+    "pages/gongaoCollection/add-or-update",
+    "pages/gongaoCollection/detail",
+    "pages/gongaoLiuyan/list",
+    "pages/gongaoLiuyan/add-or-update",
+    "pages/gongaoLiuyan/detail",
+    "pages/goods/list",
+    "pages/goods/add-or-update",
+    "pages/goods/detail",
+    "pages/goodsCommentback/list",
+    "pages/goodsCommentback/add-or-update",
+    "pages/goodsCommentback/detail",
+    "pages/goodsOrder/list",
+    "pages/goodsOrder/confirm",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/shiwurenling/list",
+    "pages/shiwurenling/add-or-update",
+    "pages/shiwurenling/detail",
+    "pages/xiaoyuanshiwuzhaoling/list",
+    "pages/xiaoyuanshiwuzhaoling/add-or-update",
+    "pages/xiaoyuanshiwuzhaoling/detail",
+    "pages/xiaoyuanshiwuzhaolingLiuyan/list",
+    "pages/xiaoyuanshiwuzhaolingLiuyan/add-or-update",
+    "pages/xiaoyuanshiwuzhaolingLiuyan/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校园综合服务平台",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#F37335",
+    "borderStyle": "black",
+    "backgroundColor": "#FE8010",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/goods/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "商品"
+      },
+      {
+        "pagePath": "pages/xiaoyuanshiwuzhaoling/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "失物招领"
+      },
+      {
+        "pagePath": "pages/forum/forum-index",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order1.png",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
